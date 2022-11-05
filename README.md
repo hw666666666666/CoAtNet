@@ -137,7 +137,7 @@ CoAtNet
     image_width: 384                 # 输入图片宽度
     center_crop: False               # 不启用 center crop
     num_parallel_workers: 16         # 数据处理并行数
-    batch_size: 64                   # 每个 device 上的 batch 大小
+    batch_size: 16                   # 每个 device 上的 batch 大小
 
     rand_augment_num_layers: 2       # RandAugment 操作的算子数量
     rand_augment_magnitude: 15       # RandAugment 操作的增强强度
